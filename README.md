@@ -20,9 +20,9 @@ This is a Team Profile Generator programmed by Ava Blake Design.
 - [Tests](#tests)
 - [Questions](#questions)
  ## Usage
- ![screenshot](assets/images/.png)
+ ![screenshot](avablake-team-profile-generator-screenshot.png)
  <video width="960" height="720" controls>
-    <source src = "" type="video/mp4"> 
+    <source src = "avablake-team-profile-generator-video.webm" type="video/mp4"> 
  </video>
  ## License
  This project is covered under MIT.
