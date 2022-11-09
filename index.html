@@ -7,6 +7,7 @@
            <meta http-quiv="X-UA-Compatible" content="ie=edge">
            <title>Team Profile Generator</title>
            <style>
+                /*This changes the wallpaper to a blueprint by using linear-gradients*/
                body {
                    margin: 0;
                    font-family: Helvetica, sans-serif;
@@ -19,6 +20,7 @@
                    background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
                    background-position:-2px -2px, -2px -2px, -1px, -1px, -1px, -1px;
                }
+               /*This changes the banner color to blue and aligns the text.*/
                .banner {
                    background-color: #1B065E;
                    color: white;
@@ -27,11 +29,13 @@
                    padding: 10px;
                    margin-bottom: 15vh;
                }
+               /*This sets the min sizes of the card */
                .card {
                    min-width:20vw;
                    min-height:40vh;
                    height:50vh;
                }
+               /* This sets the color of the card header to blue and aligns the text*/
                .cardheader {
                    padding: 10px;
                    background-color: #1B065E;
@@ -40,6 +44,7 @@
                    min-height:15%;
                    text-align: center;
                }
+               /*This aligns the card content to center and styles the cards text into columns*/
                .cardcontent {
                     display: flex;
                     align-items: left;
@@ -50,12 +55,14 @@
                     background-color: white;
                     height: 20vh;
                }
+               /*This changes the background to white and adds a border*/
                .cardcontent p {
                    background-color: white;
                    padding: 5px;
                    border: 1px solid black;
                    margin: 0;
                }
+               /*This places the cards into columns and spaces them out*/
                main {
                 padding: 0 15vw;
                 display: grid;
@@ -64,10 +71,10 @@
                 grid-gap: 25px;
                 max-width:100%;
                 }
+                /*Below are the media queries where this scales to fir mobile devices*/
                @media screen and (max-width:280px){
                   main {
                     display:block;
-                    
                   }  
                 }
                @media screen and (max-width:360){
@@ -88,6 +95,7 @@
            </style>
        </head>
        <body>
+         <!--This is where the banner is displayed at the top of the page -->
            <header class = "banner">
                <h1>My Team</h1>
            </header>
@@ -95,7 +103,7 @@
                <div class="card">
                    <div class="cardheader">
                        <div>
-                           <h3>sddsds</h3>
+                           <h3>Jeff</h3>
                        </div>
                        <div>
                            <h3><span>🏢</span>Manager</h3>
@@ -103,13 +111,13 @@
                    </div>
                    <div class="cardcontent">
                        <p>
-                           ID: sd
+                           ID: 232232
                        </p>
                        <p>
-                           email: <span><a href="mailto:sd">sd</a></span>
+                           email: <span><a href="mailto:jeff@email.com">jeff@email.com</a></span>
                        </p>
                        <p>
-                           office number: sd
+                           office number: 32323223
                        </p>
                    </div>
                </div>
@@ -117,7 +125,7 @@
             <div class="card">
             <div class="cardheader">
                 <div>
-                    <h3>sd</h3>
+                    <h3>Joe</h3>
                 </div>
                 <div>
                     <h3><span>🏢</span>Engineer</h3>
@@ -125,13 +133,13 @@
             </div>
             <div class="cardcontent">
                 <p>
-                    ID: sd
+                    ID: 45454545
                 </p>
                 <p>
-                    email: <span><a href="mailto:sd">sd</a></span>
+                    email: <span><a href="mailto:joe@email.com">joe@email.com</a></span>
                 </p>
                 <p>
-                    GitHub: <span><a href = "https://github.com/sd">sd</a></span>
+                    GitHub: <span><a href = "https://github.com/joegithub">joegithub</a></span>
                 </p>
             </div>
         </div>
@@ -140,7 +148,7 @@
         <div class="card">
         <div class="cardheader">
             <div>
-                <h3>dssd</h3>
+                <h3>Clarence</h3>
             </div>
             <div>
                 <h3><span>🏢</span>Intern</h3>
@@ -148,13 +156,13 @@
         </div>
         <div class="cardcontent">
             <p>
-                ID: ds
+                ID: 434322
             </p>
             <p>
-                email: <span><a href="mailto:sdsd">sdsd</a></span>
+                email: <span><a href="mailto:clarence@email.com">clarence@email.com</a></span>
             </p>
             <p>
-                school: sdds
+                school: ivyleagueschool
             </p>
         </div>
     </div>
