@@ -83,7 +83,7 @@ function renderHTML(manager, engineers, interns) {
                body {
                    margin: 0;
                    font-family: Helvetica, sans-serif;
-                   background-color:#269;
+                   background-color:#3410a9;
                    background-image:
                         linear-gradient(white 2px, transparent 2px),
                         linear-gradient(90deg, white 2px, transparent 2px),
@@ -102,7 +102,7 @@ function renderHTML(manager, engineers, interns) {
                         background-size:16px 16px;
                    color: white;
                    text-align: center;
-                   font-size: 18px;
+                   font-size: 24px;
                    padding: 10px;
                    margin-bottom: 15vh;
                }
