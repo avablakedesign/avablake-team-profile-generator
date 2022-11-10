@@ -93,7 +93,13 @@ function renderHTML(manager, engineers, interns) {
                    background-position:-2px -2px, -2px -2px, -1px, -1px, -1px, -1px;
                }
                .banner {
-                   background-color: #1B065E;
+                   background:
+                        radial-gradient(black 15%, transparent 16%) 0 0,
+                        radial-gradient(black 15%, transparent 16%) 8px 8px,
+                        radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+                        radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+                        background-color:#282828;
+                        background-size:16px 16px;
                    color: white;
                    text-align: center;
                    font-size: 18px;
